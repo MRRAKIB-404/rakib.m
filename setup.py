@@ -5,7 +5,7 @@ source_code = open(script_name).read()
 path = sys.prefix
 bin_path = path + '/bin/' + script_name[:-3]
 lib_path = path + '/lib/python2.7/' + script_name
-code_bin = '''#!/data/data/com.termux/files/usr/bin/python2
+code_bin = '''#!/data/data/com.termux/files/usr/bin/python
 from mardis import main as start_program
 if __name__ == '__main__':
     start_program()'''
